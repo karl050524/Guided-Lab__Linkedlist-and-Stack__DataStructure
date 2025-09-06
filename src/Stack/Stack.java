@@ -11,7 +11,7 @@ public class Stack {
 
     public void pushData(int data){
         list.addFirst(data);
-        System.out.printf("Data pushed to Stack: %d",data);
+        System.out.printf("\nData pushed to Stack: %d\n",data);
     }
 
     public int popData(){
